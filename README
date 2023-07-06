@@ -6,4 +6,4 @@ Interesting observations:
 since it does not false recognise arcimboldo.jpg. Try it with "arcimboldo.jpg".
 
 - "haarcascade_profileface.xml" and the other two tend to point to the same regions if the value of
-minNeighbors is low enough. Try setting it at 5 and running a script with "two_people.jpg".
+"minNeighbors" in "detectMultiScale" in "Module.py" is low enough. Try setting it at 5 and running a script with "two_people.jpg".
