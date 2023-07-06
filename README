@@ -1,0 +1,9 @@
+This is a small project I created to experiment with OpenCV Face Recognition classifiers presets.
+
+Interesting observations:
+
+- "haarcascade_frontalface_alt2.xml" seems to be generally better than "haarcascade_frontalface_default.xml"
+since it does not false recognise arcimboldo.jpg. Try it with "arcimboldo.jpg".
+
+- "haarcascade_profileface.xml" and the other two tend to point to the same regions if the value of
+minNeighbors is low enough. Try setting it at 5 and running a script with "two_people.jpg".
